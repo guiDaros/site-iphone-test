@@ -70,7 +70,13 @@ li{
     cursor: pointer;
 }
 
+.botao:hover{
+    background-color: #5e91f8 ;
+}
 
+.botao:active{
+    transform: scale(0.990);
+}
 
 .troca-cor{
     width: 40px;
@@ -79,6 +85,15 @@ li{
     cursor: pointer;
     border: none;
 }
+
+.troca-cor:hover{
+    transform: translate(1px, 2px);
+}
+
+.troca-cor:active{
+    opacity: 0.75;
+}
+
 .azul {
     background-color: #4787b4;
 }
